@@ -1,0 +1,16 @@
+type Inquiry = 
+ record {
+   budget: text;
+   deadline: text;
+   description: text;
+   email: text;
+   id: text;
+   name: text;
+   projectType: text;
+   submittedAt: int;
+ };
+service : {
+  getInquiries: () -> (vec Inquiry) query;
+  submitInquiry: (name: text, email: text, projectType: text, budget: 
+   text, deadline: text, description: text) -> (text);
+}

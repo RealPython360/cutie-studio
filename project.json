@@ -1,0 +1,23 @@
+{
+  "overview": "A premium multi-page website for Cutie π, a modern creative design studio offering graphic design, video editing, and website development. Features a full-screen intro splash, home page with portfolio previews and testimonials, services showcase, portfolio gallery, contact form, and about page — all with smooth animations and electric blue branding.",
+  "features": [
+    "Full-screen intro splash page with animated Explore button",
+    "Multi-page navigation with header and footer",
+    "Home page with hero, about preview, services cards, portfolio grid, and testimonials",
+    "Services page with active and coming-soon badges",
+    "Portfolio gallery with category filter tabs and lightbox",
+    "Contact form with file upload, WhatsApp button, and email display",
+    "About page with agency-style studio vision",
+    "Electric Blue accent with clean minimal typography"
+  ],
+  "category": "portfolio",
+  "tags": [
+    "design-studio",
+    "agency",
+    "portfolio",
+    "creative",
+    "graphic-design",
+    "multi-page"
+  ],
+  "last_updated": "2026-04-19T20:20:25.848Z"
+}

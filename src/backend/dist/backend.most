@@ -1,0 +1,23 @@
+// Version: 1.0.0
+type Inquiry__954613087 =
+  {
+    budget : Text;
+    deadline : Text;
+    description : Text;
+    email : Text;
+    id : Text;
+    name : Text;
+    projectType : Text;
+    submittedAt : Int
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable counter : {var value : Nat};
+  stable inquiries :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Inquiry__954613087]];
+      var elementIndex : Nat__490723111
+    }
+};
